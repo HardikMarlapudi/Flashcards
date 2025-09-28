@@ -11,15 +11,14 @@ addCard.addEventListener("click", function() {
     deleteCard.textContent = "Delete";
     deleteCard.classList.add("delete-button");
     deleteCard.addEventListener("click", function() {
-    deleteCard.classList.toggle("deleted");
     deleteCard.contentEditable = false;
+    return;
     });
 
     const editCard = document.createElement("button");
     editCard.textContent = "Edit";
     editCard.classList.add("edit-button");
     editCard.addEventListener("click", function() {
-    editCard.classList.toggle("flipped");
     editCard.contentEditable = false;
     return;
     });

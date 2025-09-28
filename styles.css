@@ -23,6 +23,7 @@
     border: 2px solid;
     border-radius: 1px solid;
     border-color: hsl(13, 20, 50);
+    display: grid;
 }
 
 .flash-card {
